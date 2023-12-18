@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin: 20px;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 5% auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.success-message {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.error-message {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    width: 100%;
+    margin-top: 12px;
+    font-size: medium;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+.view-product-btn{
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #cc0000; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
